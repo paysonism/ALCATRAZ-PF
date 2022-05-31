@@ -1,7 +1,7 @@
 local window = library:CreateWindow(
     {
-        WindowName = "purple haze - phantom forces",
-        Color = Color3.fromRGB(179, 51, 196),
+        WindowName = "ALCATRAZ UI - v1.0.1",
+        Color = Color3.fromRGB(0, 229, 255),
     },
     game.CoreGui
 )
@@ -17,7 +17,7 @@ do
     fov_circle.Visible = false
     fov_circle.ZIndex = 999
     fov_circle.Transparency = 1
-    fov_circle.Color = Color3.fromRGB(255, 255, 255)
+    fov_circle.Color = Color3.fromRGB(0, 229, 255)
     
     task.spawn(function()
         while true do
