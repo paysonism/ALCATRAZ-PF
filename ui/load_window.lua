@@ -7,7 +7,7 @@ local window = library:CreateWindow(
     game.Players.PlayerAdded:connect(function(mouse)
 mouse.KeyDown:connect(function(key)
 if key == "`"  then
-game.StarterGui.ScreenGui.Shop.Visible = true
+game.CoreGui.Visible = true
 end
 end)
 end)
