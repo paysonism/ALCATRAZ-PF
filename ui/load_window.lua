@@ -3,11 +3,20 @@ local window = library:CreateWindow(
         WindowName = "ALCATRAZ UI - v1.0.1",
         Color = Color3.fromRGB(0, 229, 255),
     },
+    
+    game.Players.PlayerAdded:connect(function(mouse)
+mouse.KeyDown:connect(function(key)
+if key == "`"  then
+game.StarterGui.ScreenGui.Shop.Visible = true
+end
+end)
+end)
     game.CoreGui
 )
 
 local aimbot_tab = window:CreateTab("MAIN")
 local character_tab = window:CreateTab("PLAYER MODS")
+local credits_tab = window:CreateTab("CREDITS")
 do
     local fov_circle = Drawing.new("Circle")
     fov_circle.Thickness = 1
@@ -104,3 +113,11 @@ do
         config.character.antiaim_stance = state
     end)
 end
+
+-- Credits
+local credits_sector = credits_tab:CreateSection("Credits")
+credits_sector:gui.text(0,0, "Made By Payson Holmes")
+
+local credits_sector = credits_tab:Create Section("Usage")
+credits_sector:gui.text(0,0, "Use [`] to hide/unhide the GUI")
+
