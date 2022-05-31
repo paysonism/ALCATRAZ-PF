@@ -6,8 +6,8 @@ local window = library:CreateWindow(
     game.CoreGui
 )
 
-local aimbot_tab = window:CreateTab("aimbot")
-local character_tab = window:CreateTab("character")
+local aimbot_tab = window:CreateTab("MAIN")
+local character_tab = window:CreateTab("PLAYER MODS")
 do
     local fov_circle = Drawing.new("Circle")
     fov_circle.Thickness = 1
