@@ -2,8 +2,8 @@
 
 Alcatraz is an open source roblox script for the game phantom forces. It includes fully functional instant reload, fast equip, aimbot, silent aim, FOV, and other character mods. There are previews below.
 
-![MAIN](images/m.png)
-![PLAYER MODS](images/pm.png)
+![MAIN](https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF/main/images/m.PNG)
+![PLAYER MODS](https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF/main/images/pm.PNG)
 
 # Usage
 
