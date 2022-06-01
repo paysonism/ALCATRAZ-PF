@@ -1,5 +1,26 @@
-# Purple Haze - Phantom Forces
-open source script for phantom forces
+# ALCATRAZ
 
-![img1](https://i.imgur.com/k9jel15.png)
-![img2](https://i.imgur.com/3OKP7nN.png)
+Alcatraz is an open source roblox script for the game phantom forces. It includes fully functional instant reload, fast equip, aimbot, silent aim, FOV, and other character mods. There are previews below.
+
+![MAIN](images/m.png)
+![PLAYER MODS](images/pm.png)
+
+# Usage
+
+To use Alcatraz, copy the code below and paste it into your exploit. After you may execute. NOTE: AVERAGE LOADING TIMES BELOW.
+
+Script: ```loadstring(game:HttpGet("https://pastebin.com/cyQrN1Yk"))()```
+
+LOAD TIMES:
+
+```25-50mb/s - 15-30sec.```
+```50-100mb/s - 5-10sec.```
+```150mb/s - 5sec.```
+
+IF SCRIPT DOESN'T LOAD IMMEDIATELY JUST WAIT FOR IT TO LOAD.
+
+# Credits
+
+Made By [Payson Holmes](https://github.com/P-DennyGamingYT/)
+
+&copy; 2022 - PDennSploit Softworks LLC
