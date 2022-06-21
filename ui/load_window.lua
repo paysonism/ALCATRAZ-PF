@@ -26,7 +26,7 @@ do
         end
     end)
     
-    local silentaim_sector = aimbot_tab:CreateSection("silent aim")
+    local silentaim_sector = aimbot_tab:CreateSection("Silent Aim")
     silentaim_sector:CreateToggle("enabled", false, function(state)
         config.aimbot.silent_aim = state
     end)
@@ -39,7 +39,7 @@ do
     silentaim_sector:CreateSlider("hit chance %", 0, 100, 100, true, function(state)
         config.aimbot.hit_chance = state
     end)
-    local fieldofview_sector = aimbot_tab:CreateSection("field of view")
+    local fieldofview_sector = aimbot_tab:CreateSection("FOV")
     fieldofview_sector:CreateToggle("enabled", false, function(state)
         config.aimbot.field_of_view = state
     end)
@@ -59,7 +59,7 @@ do
     fieldofview_sector:CreateSlider("transparency", 0, 1, 1, false, function(state)
         fov_circle.Transparency = state
     end)
-    local gunmod_sector = aimbot_tab:CreateSection("gun mod")
+    local gunmod_sector = aimbot_tab:CreateSection("Gun Mods")
     gunmod_sector:CreateToggle("fast reload", false, function(state)
         config.gunmod.fast_reload = state
     end)
@@ -68,7 +68,7 @@ do
     end)
 end
 do
-    local movement_sector = character_tab:CreateSection("movement")
+    local movement_sector = character_tab:CreateSection("Character Mods")
     movement_sector:CreateToggle("walkspeed", false, function(state)
         config.character.walkspeed = state
     end)
@@ -81,7 +81,7 @@ do
     movement_sector:CreateToggle("fake lag ( might be buggy )", false, function(state)
         config.character.fake_lag = state
     end)
-    local settings_sector = character_tab:CreateSection("settings")
+    local settings_sector = character_tab:CreateSection("Settings")
     settings_sector:CreateSlider("walkspeed amount", 0, 100, 35, true, function(state)
         set_speed(state)
     end)
@@ -92,7 +92,7 @@ do
         config.character.fake_lag_limit = state
     end)
     
-    local antiaim_sector = character_tab:CreateSection("anti aim")
+    local antiaim_sector = character_tab:CreateSection("Anti-Aim")
     antiaim_sector:CreateToggle("enabled", false, function(state)
         config.character.antiaim = state
     end)
@@ -105,7 +105,7 @@ do
     end)
 end
 
-local gun_sector = aimbot_tab:CreateSection("all guns")
+local gun_sector = aimbot_tab:CreateSection("All Guns")
     gun_sector:CreateToggle("enabled", false, function(state)
         -- Made By Payson Holmes
 
@@ -193,7 +193,7 @@ print("ALL GUNS UNLOCKED")
     game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "ALCATRAZ UI",
     Text = "ALL GUNS ACTIVE", 
-    Duration = 12 
+    Duration = 8
     })
     local oldLoadknife; oldLoadknife = hookfunction(loadknife, function(name, ...)
         name = weaponData["Knife"] or name;
