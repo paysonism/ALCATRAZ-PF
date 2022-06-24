@@ -14,7 +14,7 @@ getgenv().config = {
         auto_deploy = false,
         antiaim = true,
         -- antiaim_look = "down",
-        antiaim_stance = "stand"
+        antiaim_stance = "Stand"
     },
     gunmod = {
         fast_equip = false,
