@@ -9,8 +9,7 @@ Alcatraz is an open source roblox script for the game phantom forces. It include
 
 To use Alcatraz, copy the code below and paste it into your exploit. After you may execute. NOTE: AVERAGE LOADING TIMES BELOW.
 
-Script: ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF/main/loader.lua"))()```
+Script: ```loadstring(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF/main/loader.lua"))()```
 
 LOAD TIMES:
 
