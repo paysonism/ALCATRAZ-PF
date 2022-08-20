@@ -119,6 +119,6 @@ local gun_sector = aimbot_tab:CreateSection("All Guns")
         
         wait(3)
         
-    loadsting(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/PF-UnlockAll/main/Script.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/PF-UnlockAll/main/Script.lua"))()
         
     end)
